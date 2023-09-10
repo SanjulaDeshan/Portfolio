@@ -8,7 +8,7 @@ export const Home = () => {
     <div
       name="home"
       // className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800"
-      className="w-full h-screen bg-gradient-to-tl from-black from-50% via-black via-48% to-orange-700 to-2% "
+      className="w-full h-screen bg-gradient-to-tl from-black from-50% via-black via-48% to-black to-2% "
     >
       <div className="flex flex-col items-center justify-center h-full max-w-screen-lg px-4 mx-auto md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -36,7 +36,6 @@ export const Home = () => {
                 <FiArrowRightCircle size={25} className="ml-1" />
               </span>
             </Link>
-            to="projects" smooth duration={500}
           </div>
         </div>
 
@@ -44,7 +43,7 @@ export const Home = () => {
           <img
             src={ProfilPic}
             alt="my profile"
-            className="w-2/3 mx-auto rounded-2xl md:w-1/2"
+            className="w-2/3 mx-auto rounded-full md:w-1/2"
           />
         </div>
       </div>
