@@ -14,7 +14,7 @@ export default function SocialLinks() {
           Linkedln <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/sanjula-deshan-333962231/",
       style: "rounded-tr-md",
     },
     {
@@ -24,7 +24,7 @@ export default function SocialLinks() {
           Github <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/SanjulaDeshan",
     },
     {
       id: 3,
@@ -39,16 +39,16 @@ export default function SocialLinks() {
       id: 4,
       child: (
         <>
-          Mail <FaHackerrank size={30} />
+          Hackerrank <FaHackerrank size={30} />
         </>
       ),
-      href: "mailto:sanjuladeshan802@gmail.com",
+      href: "https://www.hackerrank.com/SanjulaDeshan?hr_r=1",
     },
     {
       id: 5,
       child: (
         <>
-          Mail <SiLeetcode size={30} />
+          Lcode <SiLeetcode size={30} />
         </>
       ),
       href: "mailto:sanjuladeshan802@gmail.com",
@@ -57,7 +57,7 @@ export default function SocialLinks() {
       id: 6,
       child: (
         <>
-          Mail <AiOutlineTwitter size={30} />
+          Twitter <AiOutlineTwitter size={30} />
         </>
       ),
       href: "mailto:sanjuladeshan802@gmail.com",
@@ -66,7 +66,7 @@ export default function SocialLinks() {
       id: 7,
       child: (
         <>
-          Mail <BsFacebook size={30} />
+          Facebook <BsFacebook size={30} />
         </>
       ),
       href: "mailto:sanjuladeshan802@gmail.com",
