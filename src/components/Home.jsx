@@ -86,7 +86,7 @@ export const Home = () => {
               duration={500}
               className="flex items-center px-6 py-3 my-2 text-white rounded-md cursor-pointer group w-fit bg-gradient-to-r from-black to-orange-700 "
             >
-              Projects
+              View My Projects
               <span className="duration-300 group-hover:rotate-90">
                 <FiArrowRightCircle size={25} className="ml-1" />
               </span>
