@@ -13,7 +13,7 @@ export default function About() {
           </p>
         </div>
 
-        <p className="mt-20 text-xl">
+        <p className="mt-20 text-xl text-justify">
           Hello there 👋 I am an ambitious and dedicated IT undergraduate
           student with a strong passion for technology. I am always looking for
           new challenges and opportunities to learn and grow. I am confident

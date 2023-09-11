@@ -84,10 +84,10 @@ export const Home = () => {
               to="projects"
               smooth
               duration={500}
-              className="flex items-center px-6 py-3 my-2 text-white rounded-md cursor-pointer group w-fit bg-gradient-to-r from-black to-orange-700 "
+              className="flex items-center px-6 py-3 my-2 text-white bg-black rounded-md shadow-md cursor-pointer shadow-gray-500 group w-fit "
             >
               View My Projects
-              <span className="duration-300 group-hover:rotate-90">
+              <span className="pl-2 duration-300 group-hover:rotate-90">
                 <FiArrowRightCircle size={25} className="ml-1" />
               </span>
             </Link>
