@@ -1,36 +1,36 @@
 import React from "react";
-import arrayDestruct from "../assets/projects/arrayDestruct.jpg";
-import installNode from "../assets/projects/installNode.jpg";
-import navbar from "../assets/projects/navbar.jpg";
-import reactParallax from "../assets/projects/reactParallax.jpg";
-import reactSmooth from "../assets/projects/reactSmooth.jpg";
-import reactWeather from "../assets/projects/reactWeather.jpg";
+import ShrimpFarming from "../assets/projects/shrimp farm.png";
+import adPlayer from "../assets/projects/adplayer.png";
+import portfo from "../assets/projects/portfolio.png";
+import pw from "../assets/projects/pwm.png";
+import nodeApi from "../assets/projects/nodeapi.png";
+import soon from "../assets/projects/coming soon.png";
 
 export default function Projects() {
   const projects = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: ShrimpFarming,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: adPlayer,
     },
     {
       id: 3,
-      src: navbar,
+      src: portfo,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: pw,
     },
     {
       id: 5,
-      src: installNode,
+      src: nodeApi,
     },
     {
       id: 6,
-      src: reactWeather,
+      src: soon,
     },
   ];
 
@@ -52,7 +52,7 @@ export default function Projects() {
 
         <div className="grid gap-8 px-12 sm:grid-cols-2 md:grid-cols-3 sm:px-0 " >
           {projects.map(({ id, src }) => (
-            <div key={id} className="rounded-lg shadow-md shadow-gray-500 bg-gradient-to-r from-black from-50% via-black via-48% to-orange-500 to-2%">
+            <div key={id} className="bg-black rounded-lg shadow-md shadow-gray-500">
               <img
                 src={src}
                 alt=""
