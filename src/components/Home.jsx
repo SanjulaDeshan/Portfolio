@@ -2,6 +2,7 @@ import React from "react";
 import ProfilPic from "../assets/heroImage.jpg";
 import { FiArrowRightCircle } from "react-icons/fi";
 import { Link } from "react-scroll";
+import Typed from "react-typed";
 
 export const Home = () => {
   return (
@@ -49,24 +50,50 @@ export const Home = () => {
     //   </div>
     // </div>
 
-        <div className="text-white">
-          <div className="w-full h-screen bg-black ">
-            <div className="flex flex-col items-center justify-center h-full max-w-screen-lg px-4 mx-auto">
-              <p className='text-[#00df9a] font-bold p-2'>
-                Hello there 👋
-              </p>
-              <h1 className='text-4xl font-bold md:text-7xl sm:text-6xl md:py-6'>
-               SANJULA DESHAN
-              </h1>
-              <div className='flex items-center justify-center'>
-                <p className='py-4 text-xl font-bold md:text-5xl sm:text-4xl'>
-                  I am a 
-                </p>
-                
-              </div>
-            </div>
+    <div className="text-white">
+      <div className="w-full h-screen bg-black ">
+        <div className="flex flex-col items-center justify-center h-full max-w-screen-lg px-4 mx-auto">
+          <p className="text-[#00df9a] font-bold p-2">Hello there 👋</p>
+          <h1 className="text-4xl font-bold md:text-7xl sm:text-6xl md:py-2">
+            SANJULA DESHAN
+          </h1>
+          <div className="flex items-center justify-center">
+            <p className="py-2 text-xl font-bold ">I am a</p>
+            <Typed
+              className="pl-2 text-xl font-bold md:pl-4"
+              strings={[
+                "Full Stack Deverloper",
+                "Web Designer",
+                "Undergraduate Student At university Of Moratuwa",
+                "Gamer",
+              ]}
+              typeSpeed={120}
+              backSpeed={140}
+              loop
+            />
           </div>
-          
+          <p className="text-sm font-bold text-center text-gray-500 md:py-6">
+            I am a dedicated Sri Lankan university student with a strong passion
+            for Information Technology, driven by the application of innovative
+            technologies to address practical, real-world challenges. I firmly
+            believe that my purpose revolves around this mission.
+          </p>
+
+          <div>
+            <Link
+              to="projects"
+              smooth
+              duration={500}
+              className="flex items-center px-6 py-3 my-2 text-white rounded-md cursor-pointer group w-fit bg-gradient-to-r from-black to-orange-700 "
+            >
+              Projects
+              <span className="duration-300 group-hover:rotate-90">
+                <FiArrowRightCircle size={25} className="ml-1" />
+              </span>
+            </Link>
+          </div>
         </div>
+      </div>
+    </div>
   );
 };
