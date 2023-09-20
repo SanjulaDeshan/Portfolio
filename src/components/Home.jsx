@@ -1,5 +1,4 @@
 import React from "react";
-import ProfilPic from "../assets/heroImage.jpg";
 import { FiArrowRightCircle } from "react-icons/fi";
 import { Link } from "react-scroll";
 import Typed from "react-typed";
@@ -64,7 +63,7 @@ export const Home = () => {
               strings={[
                 "Full Stack Deverloper",
                 "Web Designer",
-                "Undergraduate Student At university Of Moratuwa",
+                "Undergraduate",
                 "Gamer",
               ]}
               typeSpeed={120}
